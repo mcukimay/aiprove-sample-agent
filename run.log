@@ -1,0 +1,32 @@
+[2026-11-14T22:18:22.586Z] agent aiprove-sample-agent v1.0.0 api=https://aiprove.fun mode=full/autonomous
+[2026-11-14T22:18:22.643Z] keypair loaded from file address=0x99787F68643aad9069fB6c1516B7F764375AF96B handle=sample-99787f
+[2026-11-14T22:18:23.920Z] skill.md OK 6722 bytes, contains auth flow
+[2026-11-14T22:18:24.252Z] challenge OK HTTP 200
+[2026-11-14T22:18:24.584Z] auth OK token issued, expiresAt=1794781105627
+[2026-11-14T22:18:24.931Z] list OK 20 open bounties: write-article-aiprove, make-art-aiprove, refer-most-agents, eth-pnl-fixed, aiprove-mascot, explainer-video-aiprove, sample-agent-skillmd, forecast-btc-7d, top5-pons-24h, forecast-nvda-3d, code-golf-expr, fastest-primes, bug-hunt-utils, best-autonomous-agent, retweet-and-quote-the-launch-post, bughunt-stakepool, nvda-jensen-earnings, prove-mc-3d, marketing-prove-launch, eth-signal-pnl-hard
+[2026-11-14T22:18:25.519Z] enter OK write-article-aiprove HTTP 409 (already entered)
+[2026-11-14T22:18:26.688Z] enter OK make-art-aiprove HTTP 409 (already entered)
+[2026-11-14T22:18:27.253Z] enter OK refer-most-agents HTTP 409 (already entered)
+[2026-11-14T22:18:27.747Z] enter OK eth-pnl-fixed HTTP 409 (already entered)
+[2026-11-14T22:18:28.311Z] enter OK aiprove-mascot HTTP 409 (already entered)
+[2026-11-14T22:18:28.807Z] enter OK explainer-video-aiprove HTTP 409 (already entered)
+[2026-11-14T22:18:29.372Z] enter OK sample-agent-skillmd HTTP 409 (already entered)
+[2026-11-14T22:18:29.866Z] enter OK forecast-btc-7d HTTP 409 (already entered)
+[2026-11-14T22:18:30.447Z] enter OK top5-pons-24h HTTP 409 (already entered)
+[2026-11-14T22:18:30.940Z] enter OK forecast-nvda-3d HTTP 409 (already entered)
+[2026-11-14T22:18:31.505Z] enter OK code-golf-expr HTTP 409 (already entered)
+[2026-11-14T22:18:31.999Z] enter OK fastest-primes HTTP 409 (already entered)
+[2026-11-14T22:18:32.577Z] enter OK bug-hunt-utils HTTP 409 (already entered)
+[2026-11-14T22:18:33.063Z] enter OK best-autonomous-agent HTTP 409 (already entered)
+[2026-11-14T22:18:33.631Z] enter OK retweet-and-quote-the-launch-post HTTP 409 (already entered)
+[2026-11-14T22:18:34.119Z] enter SKIP bughunt-stakepool PROVE hold (403) or gated {"error":"Hold or stake 100,000 $PROVE to enter — one credit per bounty, returned whether you win or lose. $PROVE fair-l
+[2026-11-14T22:18:34.701Z] enter SKIP nvda-jensen-earnings PROVE hold (403) or gated {"error":"Hold or stake 100,000 $PROVE to enter — one credit per bounty, returned whether you win or lose. $PROVE fair-l
+[2026-11-14T22:18:35.311Z] enter SKIP prove-mc-3d PROVE hold (403) or gated {"error":"Hold or stake 100,000 $PROVE to enter — one credit per bounty, returned whether you win or lose. $PROVE fair-l
+[2026-11-14T22:18:35.893Z] enter SKIP marketing-prove-launch PROVE hold (403) or gated {"error":"Hold or stake 100,000 $PROVE to enter — one credit per bounty, returned whether you win or lose. $PROVE fair-l
+[2026-11-14T22:18:36.498Z] enter SKIP eth-signal-pnl-hard PROVE hold (403) or gated {"error":"Hold or stake 100,000 $PROVE to enter — one credit per bounty, returned whether you win or lose. $PROVE fair-l
+[2026-11-14T22:18:36.936Z] predict forecast-btc-7d 7d change -0.1605 -> prob 0.34
+[2026-11-14T22:18:37.691Z] submit OK forecast-btc-7d HTTP 201 submission=5dfb5583-4ae6-4d53-9995-2e35c6e4abd1 prediction={"prob":0.34}
+[2026-11-14T22:18:39.037Z] predict forecast-nvda-3d persistence forecast = last close 162.85000610351562
+[2026-11-14T22:18:39.791Z] submit OK forecast-nvda-3d HTTP 201 submission=e024f598-9ea1-4874-898d-6e02ea00cfcc prediction={"answer":162.85000610351562}
+[2026-11-14T22:18:41.018Z] me OK competing=15 submissions=3 wins=
+[2026-11-14T22:18:41.019Z] done LOOP OK in 18.4s address=0x99787F68643aad9069fB6c1516B7F764375AF96B entered=15 skipped=5 predictions=2 entries=[]

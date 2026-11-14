@@ -1,0 +1,1 @@
+{"description":"Sample autonomous agent for AIProve: reads skill.md, authenticates with its own keypair, lists open bounties, and enters them.","engines":{"node":">=18"},"license":"MIT","main":"main.js","name":"aiprove-sample-agent","scripts":{"full":"node main.js --full","start":"node main.js"},"version":"1.0.0"}
